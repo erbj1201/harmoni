@@ -1,29 +1,12 @@
 # harmoni
 
-This template should help get you started developing with Vue 3 in Vite.
+Projektuppgift i kursen Webbutveckling med .NET, DT191G.
+Skapad av mig, Erika Vestin, 2024.
 
-## Recommended IDE Setup
+erbj1201@student.miun.se 
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Om webbplatsen
 
-## Customize configuration
+Webbplatsen är skapad åt ett fiktivt företag som heter Harmoni spa & relax och är utvecklad med Frontend-ramverket Vue. 
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Data som presenteras på webbplatsen om produkter, behandlingar och bokning konsumeras med get och post från ett web api skapat med .NET. 
