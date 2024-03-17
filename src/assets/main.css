@@ -1,0 +1,170 @@
+/*Media for desktop*/
+
+/*Generics for body, main*/
+body{
+  width: 100%;
+  max-width: 1900px;
+  height: 100%;
+background-color: #e0dbdb;
+font-size: 1em;
+color: black;
+margin: auto;
+font-family: "Inter", sans-serif;
+}
+main{
+  max-width: 1900px;
+  background-color: rgba(255, 255, 255, 0.74);
+  box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.212);
+margin: 0;
+width: 100%;
+}
+/*Hero-img*/
+picture{
+width: 100%;
+height: 100%;
+margin: 0 auto;
+}
+.hero-image{
+width: 100%;
+height: auto;
+margin: 0 auto;
+justify-content: center;
+}
+.hero-image img, .heroimg{
+width: 100%;
+max-width: 1900px;
+height: 100%;
+margin: 0 auto;
+justify-self: center;
+}
+.hero-content{
+text-align: center;
+position: absolute;
+top: 300px;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+margin: auto;
+}
+.herobtn{
+text-decoration: none;
+background-color: rgba(0, 0, 0, 0.806);
+color: white;
+box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.212);
+border: 1px solid white;
+border-radius: 5%;
+height: auto;
+font-size: 1.8em;
+padding: 1em 2em;
+text-align: center;
+margin: auto;
+font-family: "Kalam", cursive;
+}
+.herobtn:hover{
+background-color: rgba(226, 201, 121, 0.623);
+color: black;
+} /*main heading and content*/
+.main-heading{
+margin: auto;
+padding: 2em 0;
+text-align: center;
+}
+.main-content{
+margin: 0 auto;
+display: block;
+max-width: 1200px;
+line-height: 1.5;
+padding: 2em;
+}
+.main-content article{
+display: block;
+margin: 2em auto;
+max-width: 60em;
+justify-content: space-between;
+line-height: 1.5;
+} 
+/*Headings, text*/
+h1{
+margin: auto;
+color: black;
+font-size: 2em;
+font-family: "Kalam", cursive;
+}
+h2{
+margin: auto;
+color: black;
+font-size: 1.8em;
+font-family: "Kalam", cursive;
+}
+h3{
+margin: auto;
+color: black;
+font-size: 1.6em;
+font-family: "Inter", sans-serif;
+}
+h4{
+margin: auto;
+color: black;;
+font-size: 1.4em;
+font-family: "Inter", sans-serif;
+}
+h5{
+margin: auto;
+color: black;
+font-size: 1.2em;
+font-family: "Inter", sans-serif;
+}
+p{
+font-size: 1em;
+color: black;
+max-width: 60em;
+font-family: "Inter", sans-serif;
+} /*Media for tablet*/
+@media screen and (min-width: 600px) and (max-width: 1024px){
+body, header, footer, main{
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: none;
+} /*hero-img */
+  .hero-image img, .heroimg{
+  max-width: 1024px;
+  }
+  .hero-content{
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+  .herobtn{
+  height: auto;
+  font-size: 1.2em;
+  width: 100%;
+  }
+} /*Media for mobile*/
+@media screen and (max-width: 600px){
+  /*gemeric with, margin*/
+body, header, footer, main{
+  box-shadow: none;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+} /*hero-img */
+.hero-image img, .heroimg{
+  max-width: 600px;
+  }
+  .hero-content{
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+  .herobtn{
+  height: auto;
+  font-size: 0.8em;
+  padding: 0.2em 0.5em;
+  width: 100%;
+  }
+}
+
+
